@@ -1,0 +1,8 @@
+days= ["mon,"tue", "wed","thur,"fri","sat","sun"]
+Number = int(input(n
+
+if number<0 or number >7:
+    print("you are a muppet try again")  
+    number = int(input("umber between one and seven"))
+else:
+print(days[number])
